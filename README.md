@@ -1,5 +1,5 @@
 # LinuxProject
-write a computer program which plays a game of Hangman using this “Evil Hangman” algorithm. In particular, your program should do the following:
+### Write a computer program which plays a game of Hangman using this “Evil Hangman” algorithm. In particular, your program should do the following:
 
 Read the file dictionary.txt, which contains the full contents of the Official Scrabble Player's Dictionary, Second Edition. This word list has over 120,000 words, which should be more than enough for our purposes.
 Prompt the user for a word length, reprompting as necessary until she enters a number such that there's at least one word that's exactly that long. That is, if the user wants to play with words of length -42 or 137, since no English words are that long, you should reprompt her.
