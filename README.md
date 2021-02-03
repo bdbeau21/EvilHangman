@@ -14,6 +14,5 @@ Play a game of Hangman using the Evil Hangman algorithm, as described below:
 6. If the player has run out of guesses, pick a word from the word list and display it as the word that the computer initially “chose.”
 7. If the player correctly guesses the word, congratulate her.
 Ask if the user wants to play again and loop accordingly.
-6.
 It's up
 structures would be best for tracking word families and the master word list. Would an associative array work? How about a stack or queue? Thinking through the design before you start coding will save you a lot of time and headache.
