@@ -37,7 +37,7 @@ ALLY COOL GOOD
 
 and since you didn't reveal any letters, you would tell your opponent that his guess was wrong.
 
-##Prerequisites
+## Prerequisites
 
 A string-handling module. (MyString)
 
@@ -47,7 +47,7 @@ An array of generic vectors of MyStrings containing the entire dictionary read f
 
 An AssociativeArray module which allows using MyString data as the “key” or “index” to locate a particular Vector of Mystrings. The AssociativeArray must be implemented using an AVL Tree. There will be no duplicate keys. When a new MyString data item is added to the AssociativeArray, a “key” value (MyString object) will be given. That “key” is located in the AVL tree (or added to the AVL tree), and the data MyString is added to the Vector associated with that “key”. Look-up by “key” yields a Vector of all of the MyString that have been added to the Vector associated with that key.
 
-##Requirements
+## Requirements
 
 Prompt the user for a word length, re-prompting as necessary until she enters a number such that there's at least one word that's exactly that long. That is, if the user wants to play with words of length -42 or 137, since no English words are that long, you should reprompt her.
 
